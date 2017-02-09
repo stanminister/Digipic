@@ -103,13 +103,16 @@ while Run:
         FrostAl = False
         
         Rele = True
-        ReimAl = True
+        ReimAl = False
         
         sleep(1.0)
-        ReimAl = False
+        ReimAl = True
+        sleep(1.0)
+        Pulse1 = True
+
+    if Pulse1:
         sleep(1.0)
         Pulse1 = False
-
         
 
     if Key2 and RE8:
